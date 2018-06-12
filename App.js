@@ -34,9 +34,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Text style={styles.welcome}> If you could see this text, then Code Push Works for you!!! Enjoy!!!</Text>
         <TouchableOpacity onPress={this.onButtonPress}>
           <Text>Check for updates</Text>
         </TouchableOpacity>
